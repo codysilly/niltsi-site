@@ -75,9 +75,29 @@
       line-height: 1.6;
     }
 
+    footer {
+      position: fixed;
+      bottom: 30px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+    }
+
+    footer a {
+      color: #91aec2;
+      font-size: 14px;
+      letter-spacing: 0.08em;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      color: #f4f6f8;
+      text-decoration: underline;
+    }
+
     @media (max-width: 600px) {
       .container {
-        padding: 30px 20px;
+        padding: 30px 20px 80px;
       }
 
       h1 {
@@ -90,6 +110,10 @@
 
       h2 {
         margin-bottom: 45px;
+      }
+
+      footer {
+        bottom: 20px;
       }
     }
   </style>
@@ -105,9 +129,15 @@
     <h2>INDEPENDENT AVIATION PROJECT</h2>
 
     <div class="status">
-      WORK IN PROGRESS &middot; COMING SOON
+      WORK IN PROGRESS
     </div>
 
   </main>
+
+  <footer>
+    <a href="mailto:contact@niltsi.com">
+      contact@niltsi.com
+    </a>
+  </footer>
 </body>
 </html>
